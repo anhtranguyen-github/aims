@@ -16,9 +16,7 @@ public class Aims {
 
         DigitalVideoDisc dvd3 = new DigitalVideoDisc("Animation", "Inside Out",18.99f);
         testCart.addDigitalVideoDisc(dvd3);
-
         testCart.removeDigitalVideoDisc(dvd3);
-
         System.out.println("Total cost is: ");
         System.out.println(testCart.totalCost());
     }
